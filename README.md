@@ -1,23 +1,23 @@
-# tree_display
+# 🌳 Tree display
 
-## Description
+## 📄 Description
 
 `tree_display` is a Bash script that generates a directory tree structure and saves it to a file named `tree.txt`. The script excludes specified directories, limits the number of displayed elements, and provides a clear and organized view of the directory contents.
 
-## Features
+## ✨ Features
 
 - **Excludes specified directories**: Easily exclude directories like `venv` from the tree structure.
 - **Limits displayed elements**: Display up to 5 elements per directory, with an option to show more if needed.
 - **Customizable output**: Adjust the maximum number of elements displayed and the file where the tree is saved.
 
-## Table of Contents
+## 📚 Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Example Output](#example-output)
 
 
-## Installation
+## 🛠️ Installation
 
 To use `tree_display`, simply clone the repository and make the script executable:
 
@@ -27,7 +27,7 @@ cd tree_display
 chmod +x tree_display.sh
 ```
 
-## Usage
+## 🚀 Usage
 
 Run the script from the command line to generate the directory tree:
 
@@ -37,14 +37,14 @@ Run the script from the command line to generate the directory tree:
 
 The script will create a file named tree.txt in the current directory, containing the tree structure.
 
-## Script Options
+## ⚙️ Script Options
 
 - EXPORT_FILE: The name of the file where the tree structure is saved (default: tree.txt).
 - LIMIT: The maximum number of elements displayed per directory (default: 5).
 - MAX_DISPLAY: The threshold for displaying the continuation message ([...]) (default: 15).
 - EXCLUDE_DIR: The directory to exclude from the tree structure (default: venv).
 
-## Example Output
+## 📝 Example Output
 
 Here is an example of the output saved in tree.txt:
 
